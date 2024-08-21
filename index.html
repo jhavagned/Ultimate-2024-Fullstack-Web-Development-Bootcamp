@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>HTML 201</title>
+    <link rel="shortcut icon" href="images/favicons/icons8.png" type="image/png">
+</head>
+<body>
+    <h1 id="top">Welcome to HTML 201</h1>
+    <a href="#bottom">Scroll to bottom of page</a>
+    <p>
+        <span style="text-decoration: underline;">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</span> 
+        Non, minus perspiciatis numquam iusto et molestiae unde laborum, 
+        veniam molestias qui, nemo ab blanditiis necessitatibus autem ducimus
+         ut hic dolorem. Dolores.
+    </p>
+
+    <img src="images/computers.jpg" alt="computers">
+
+    <table border="1" width='100%'>
+       <tbody>
+            <tr>
+                <td colspan="3">1</td>
+            </tr>
+            <tr>
+                <td rowspan="2">1</td>
+                <td colspan="2">2</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>3</td>
+            </tr>
+       </tbody>
+    </table>
+    
+    <br>
+
+    <table border="1" width='50%'>
+        <tbody>
+            <tr>
+                <th colspan="2">Welcome to my website</td>
+            </tr>
+            <tr>
+                <td width="20%">Navigation</td>
+                <td>Content</td>
+            </tr>
+            <tr>
+
+            </tr>
+        </tbody>
+    </table>
+
+
+    <style>
+        .classNameHere {
+            padding: 40px; 
+            color: white; 
+            background-color: black;
+        }
+        .uppercase {
+            text-transform: uppercase;
+        }
+
+        #testingId {
+            border: 15px solid red;
+        }
+    </style>
+
+    <div class="classNameHere">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+        Cupiditate quisquam nisi excepturi corporis sapiente. Sed,
+         ex quidem! Cupiditate autem magnam illo, rem sapiente 
+         asperiores, reprehenderit facilis odit ut excepturi aut.
+    </div>
+
+    <div id="testingId">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Velit nemo sit ullam quibusdam aperiam, labore doloremque.
+         Unde saepe eaque quaerat, vitae possimus nihil nemo 
+         repellat veritatis excepturi amet autem qui!
+
+    </div>
+
+    <div class="classNameHere uppercase">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Excepturi quod optio sequi perferendis quis quam minus, 
+        dolorem vitae iure ipsam, ipsum temporibus odit voluptate 
+        totam consequuntur corrupti, voluptatibus iste ducimus?
+    </div>
+
+    <h3>Format Code</h3>
+
+    <pre>
+        Some      stuff       here &lt;b&gt;This is bold&lt;/b&gt;
+        Second    line        here
+    </pre>
+
+    <p>
+        <code>Lorem ipsum dolor sit</code> amet consectetur
+         adipisicing elit. Sunt labore nulla 
+         voluptatem provident excepturi. Harum
+          perferendis deserunt dolor in suscipit
+           neque? Aperiam vero saepe, blanditiis 
+           hic quisquam magnam minima? Eligendi?
+    </p>
+
+    <h3>Forms</h3>
+    <form method="GET" action="somepage.html">
+        <div>
+            <input required name="email" type="email" value="Hello World" 
+            placeholder="Enter your email">
+        </div>
+        <div>
+            <textarea required name="address" cols="50" rows="5" placeholder="Wow a placeholder">Text in here 
+                Whitespace does matter in here
+            </textarea>
+        </div>
+
+        <div>
+            <select name="selected_option">
+                <option value="" disabled="disabled">
+                    - Disabled - 
+                </option>
+                <option value="value1">This is value 1</option>
+                <option value="value2">This is value 2</option>
+                <option value="default-is-selected" selected="selected">
+                    Selected by Default
+                </option>
+            </select>
+        </div>
+
+        <div>
+            <button type="submit">Click Me!</button>
+        </div>
+    </form>
+
+
+    <h3>Embeds</h3>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/jiHNLrW_ueo?si=zZZTlaQS5V1OtAOA" 
+    title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+
+    <div id="bottom">
+        <a href="#top"> Back to top</a>
+        <sub>&copy;</sub> 2024
+    </div>
+</body>
+</html>

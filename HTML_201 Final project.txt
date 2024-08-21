@@ -1,0 +1,6 @@
+Create a page layout using tables
+Navigation should have a link to another existing page
+Content should have an image, paragraph, a header, and a youtube video
+Footer should have a copyright symbol
+
+Screenshot page and share
